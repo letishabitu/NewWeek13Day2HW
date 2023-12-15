@@ -7,7 +7,7 @@ class Show extends React.Component {
             <div>
                 <h1>Show Page</h1>
                 <p>The pokemon {pokemon.name} is accessed with </p>
-                <a href= {pokemon.img}> click here for image</a>
+                <img src={pokemon.img} />
                 
             </div>
 
